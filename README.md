@@ -30,7 +30,7 @@ To update:
 | :--- | :--- |
 | **Domoticz&nbsp;server** |  Address of the Domiticz server with the motion detector(s), eg. localhost, or 192.168.1.231. Default is ```localhost```. |
 | **Port** | Port of the Domiticz server with motion detector(s). Default is ```8080```. |
-| **IDX** | List of idx values of the motion sensors on the Domoticz server. |
+| **IDX** | List of comma seperated idx values of the motion sensors on the Domoticz server. |
 | **Debug** | Show debug messages in the log. Default is ```False```. |
 
 ## To Do
