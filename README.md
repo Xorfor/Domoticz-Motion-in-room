@@ -3,7 +3,7 @@
 ## Status
 | Status | Operating system |
 | :--- | :--- |
-| <span style="color:red;">Beta</span> | All |
+| **Beta** | All |
 
 ## Description
 Motion sensors indicate whether they see motion. However if you want to control lights in your room depending on motion detected, you want to be sure only to switch off the lights if motion is not detected for x minutes.
