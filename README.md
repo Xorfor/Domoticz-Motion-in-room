@@ -1,4 +1,4 @@
-# Domoticz-Motion-in-room
+# Motion in room
 
 ## Status
 | Status | Operating system |
@@ -8,6 +8,7 @@
 ## Description
 Motion sensors indicate whether they see motion. However if you want to control lights in your room depending on motion detected, you want to be sure only to switch off the lights if motion is not detected for x minutes.
 With this plugin it is possible to control this.
+You can use the value of this device in you Blockly events, to switch on/off lights in a room.
 
 ## Installation
 Python version 3.4 or higher required & Domoticz version 3.87xx or greater.
