@@ -41,7 +41,10 @@ class BasePlugin:
         Domoticz.Debug("onStart called")
         if Parameters["Mode6"] == "Debug":
             Domoticz.Debugging(1)
+        else:
+            Domoticz.Debugging(0)
         # Validate parameters
+        self.__counter = int(Parameters["Mode1"]) * 6
         # Create devices
         if _MOTION_UNIT in Devices:
             pass
